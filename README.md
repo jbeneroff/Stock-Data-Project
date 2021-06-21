@@ -1,13 +1,12 @@
 # Project Overview
 
-## Project Name
+## Real-Time Stock Data Project
 
 [Deployed URL](URL)
-The name of your project with deployed URL.
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+The website will offer a search by stock name or ticker. Real-time share data and a company profile for the searched stock will be provided.
 
 ## API and Data Sample
 
