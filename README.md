@@ -6,7 +6,7 @@
 
 ## Project Description
 
-The website will offer a search by stock name or ticker. Real-time share data and a company profile for the searched stock will be provided.
+The website will offer a search by stock ticker. Real-time share data and a company profile for the searched stock will be provided.
 
 ## API and Data Sample
 
