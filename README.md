@@ -11,6 +11,7 @@ The website will offer a search by stock ticker. A company overview for the sear
 ## API and Data Sample
 
 https://www.alphavantage.co/documentation/
+
 https://www.alphavantage.co/query?function=OVERVIEW&symbol=AAPL&apikey=
 
 ```
