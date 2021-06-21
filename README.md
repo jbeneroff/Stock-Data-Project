@@ -83,8 +83,6 @@ https://www.alphavantage.co/query?function=OVERVIEW&symbol=AAPL&apikey=
 ## Wireframes
 
 [Wireframe](https://wireframe.cc/pro/pp/9eb2ab47f452386)
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
-
 
 
 #### MVP 
@@ -115,7 +113,7 @@ Upload images of your wireframes to an image hosting site or add them to an asse
 ## Priority Matrix
 
 [Priority Matrix](URL)
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+
 
 ## Timeframes
 
