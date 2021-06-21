@@ -6,7 +6,7 @@
 
 ## Project Description
 
-The website will offer a search by stock ticker. A company overview for the searched stock will be provided. 
+The website will offer a search by stock ticker. A company profile with a financial overview for the searched stock will be provided. Real-time share price may be added as a PMVP using a second API, as well as my personal BUY/SELL rating for the stock.
 
 ## API and Data Sample
 
