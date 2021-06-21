@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T21:06:32.052Z" agent="5.0 (Macintosh)" etag="U2bRFLs3H9CrXjeNAZdr" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-21T21:09:17.360Z" agent="5.0 (Macintosh)" etag="pAIWSlT-vC8doQFf_G69" version="14.8.0" type="github">
   <diagram id="48_5S6bRpJXSl84jQB-Y" name="Page-1">
     <mxGraphModel dx="895" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,14 +22,8 @@
         <mxCell id="vvDB-SONUuXCJBClGc_7-5" value="Priority" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="250" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vvDB-SONUuXCJBClGc_7-6" value="Adding First API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="vvDB-SONUuXCJBClGc_7-7" value="Basic HTML/CSS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vvDB-SONUuXCJBClGc_7-8" value="Adding Company Overview" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vvDB-SONUuXCJBClGc_7-9" value="PMVP: Second API/Real-time share price" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="310" width="120" height="60" as="geometry" />
@@ -44,13 +38,25 @@
           <mxGeometry x="410" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vvDB-SONUuXCJBClGc_7-14" value="Removing previous search data" style="rounded=1;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="270" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="210" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vvDB-SONUuXCJBClGc_7-15" value="Deploying Website" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="50" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vvDB-SONUuXCJBClGc_7-18" value="Advanced CSS styling" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="345" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-19" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="520" as="sourcePoint" />
+            <mxPoint x="760" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-6" value="Working w/ First API" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="640" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-8" value="Adding Company Overview w/ Financial&amp;nbsp; Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
