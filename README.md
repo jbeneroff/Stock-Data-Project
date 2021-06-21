@@ -6,39 +6,99 @@
 
 ## Project Description
 
-The website will offer a search by stock ticker. Real-time share data and a company profile for the searched stock will be provided.
+The website will offer a search by stock ticker. A company overview for the searched stock will be provided. 
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+https://www.alphavantage.co/documentation/
+
+```
+{
+    "Symbol": "AAPL",
+    "AssetType": "Common Stock",
+    "Name": "Apple Inc",
+    "Description": "Apple Inc. is an American multinational technology company that specializes in consumer electronics, computer software, and online services. Apple is the world's largest technology company by revenue (totalling $274.5 billion in 2020) and, since January 2021, the world's most valuable company. As of 2021, Apple is the world's fourth-largest PC vendor by unit sales, and fourth-largest smartphone manufacturer. It is one of the Big Five American information technology companies, along with Amazon, Google, Microsoft, and Facebook.",
+    "CIK": "320193",
+    "Exchange": "NASDAQ",
+    "Currency": "USD",
+    "Country": "USA",
+    "Sector": "TECHNOLOGY",
+    "Industry": "ELECTRONIC COMPUTERS",
+    "Address": "ONE INFINITE LOOP, CUPERTINO, CA, US",
+    "FiscalYearEnd": "September",
+    "LatestQuarter": "2021-03-31",
+    "MarketCapitalization": "2177064370176",
+    "EBITDA": "99820003328",
+    "PERatio": "29.3234",
+    "PEGRatio": "2.0216",
+    "BookValue": "4.146",
+    "DividendPerShare": "0.82",
+    "DividendYield": "0.0062",
+    "EPS": "4.449",
+    "RevenuePerShareTTM": "19.143",
+    "ProfitMargin": "0.2345",
+    "OperatingMarginTTM": "0.2732",
+    "ReturnOnAssetsTTM": "0.169",
+    "ReturnOnEquityTTM": "1.034",
+    "RevenueTTM": "325405999104",
+    "GrossProfitTTM": "104956000000",
+    "DilutedEPSTTM": "4.449",
+    "QuarterlyEarningsGrowthYOY": "1.188",
+    "QuarterlyRevenueGrowthYOY": "0.536",
+    "AnalystTargetPrice": "159.44",
+    "TrailingPE": "29.3234",
+    "ForwardPE": "24.5098",
+    "PriceToSalesRatioTTM": "6.8876",
+    "PriceToBookRatio": "31.4705",
+    "EVToRevenue": "6.8495",
+    "EVToEBITDA": "21.601",
+    "Beta": "1.2082",
+    "52WeekHigh": "144.6279",
+    "52WeekLow": "87.2323",
+    "50DayMovingAverage": "127.0647",
+    "200DayMovingAverage": "128.4757",
+    "SharesOutstanding": "16687599616",
+    "SharesFloat": "16670609616",
+    "SharesShort": "123121920",
+    "SharesShortPriorMonth": "94747255",
+    "ShortRatio": "1.36",
+    "ShortPercentOutstanding": "0.01",
+    "ShortPercentFloat": "0.0074",
+    "PercentInsiders": "0.066",
+    "PercentInstitutions": "58.688",
+    "ForwardAnnualDividendRate": "0.88",
+    "ForwardAnnualDividendYield": "0.0068",
+    "PayoutRatio": "0.1872",
+    "DividendDate": "2021-05-13",
+    "ExDividendDate": "2021-05-07",
+    "LastSplitFactor": "4:1",
+    "LastSplitDate": "2020-08-31"
+}
+```
+
+
 
 ## Wireframes
 
 [Wireframe](URL)
 Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
-### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Implement stock data API
+- Allow search of ticker 
+- Show company profile of searched ticker
+- Remove previous search data when new search is made
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add second API with real-time share price
+- Add Buy/Sell rating
+- Add list of favorites that searched stocks can be added to
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -63,19 +123,30 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Project Proposal/Find APIs | H | 3hrs|  |  |
+| Adding Basic HTML | H | 1hrs|  |  |
+| Adding Form/Search | H | 3hrs|  |  |
+| Working with 1st API | H | 3hrs|  |  |
+| Searching/Appending Company Overview Data| H | 3hrs|  |  |
+| Building out Complete Company Overview Elements | H | 3hrs|  |  |
+| Removing Previous Search Data | H | 1hrs|  |  |
+| Adding Basic CSS | H | 3hrs|  |  |
+| Adding Flexbox | H | 3hrs|  |  |
+| Adding Media Query | H | 1hrs|  |  |
+| Adding Advanced CSS styling | H | 3hrs|  |  |
+| Deploying Website | H | 1hrs|  |  |
+| PMVP: Working with 2nd API | M | 3hrs|  |  |
+| PMVP: Appending Real-Time Share Price Data | M | 3hrs|  |  |
+| PMVP: Adding Buy/Sell Rating | L | 3hrs|  |  |
+| PMVP: Adding Favorites List | L | 3hrs|  |  |
+| Total | H | 40hrs|  |  |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ 
