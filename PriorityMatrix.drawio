@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T20:52:35.398Z" agent="5.0 (Macintosh)" version="14.8.0" etag="sltAuzFvD2RPDaLKZd5-" type="github"><diagram id="48_5S6bRpJXSl84jQB-Y">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-21T21:06:32.052Z" agent="5.0 (Macintosh)" etag="U2bRFLs3H9CrXjeNAZdr" version="14.8.0" type="github">
+  <diagram id="48_5S6bRpJXSl84jQB-Y" name="Page-1">
+    <mxGraphModel dx="895" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vvDB-SONUuXCJBClGc_7-1" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="520" as="sourcePoint" />
+            <mxPoint x="760" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="520" as="sourcePoint" />
+            <mxPoint x="120" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-4" value="&lt;div&gt;Time&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="530" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-5" value="Priority" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-6" value="Adding First API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-7" value="Basic HTML/CSS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-8" value="Adding Company Overview" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-9" value="PMVP: Second API/Real-time share price" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-10" value="PMVP: Favorites List" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-11" value="PMVP: Buy/Sell Rating" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-12" value="&lt;div&gt;Flexbox/Media Query&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-14" value="Removing previous search data" style="rounded=1;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-15" value="Deploying Website" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vvDB-SONUuXCJBClGc_7-18" value="Advanced CSS styling" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
