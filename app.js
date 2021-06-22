@@ -2,7 +2,7 @@
 const apiKey = 'M31QNN25YYCK1WWU'
 // const baseURL = `${domain}query?function=OVERVIEW&symbol=${stock}&apikey=${apiKey}`
 
-const dataContainer = document.querySelector('#info')
+const dataContainer = document.querySelector('#profile')
 const dataContainer2 = document.querySelector('#finances')
 
 async function fetchData(ticker) {
