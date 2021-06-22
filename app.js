@@ -65,7 +65,7 @@ function renderData(stockData) {
 
 }
 
-const button = document.querySelector('button')
+const button = document.querySelector('#submit')
 button.addEventListener('click', (e) => {
   e.preventDefault()
   const inputValue = document.querySelector('#input').value
