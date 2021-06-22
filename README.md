@@ -14,6 +14,8 @@ https://www.alphavantage.co/documentation/
 
 https://www.alphavantage.co/query?function=OVERVIEW&symbol=AAPL&apikey=
 
+https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock Price Data)
+
 ```
 {
     "Symbol": "AAPL",
