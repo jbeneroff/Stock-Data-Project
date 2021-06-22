@@ -10,7 +10,7 @@ nav {
 
 ul {
   padding: 0px;
-  margin: 5px;
+  margin: 10px;
 }
 
 .search-form {
@@ -33,6 +33,8 @@ ul {
   align-items: center;
   /* margin: 0px;
   padding: 0px; */
+  /* border-style: solid black;
+  border-radius: 2px; */
 }
 
 #finances {
@@ -42,10 +44,15 @@ ul {
   align-items: center;
   /* margin: 0px;
   padding: 0px; */
+  border-radius: 2px;
 }
 
 h2, h3, h5, p {
-  margin: 2px;
+  margin: 3px;
+}
+
+p {
+  margin-left: 20px;
 }
 
 #footer {

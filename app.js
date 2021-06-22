@@ -63,6 +63,14 @@ function renderData(stockData) {
   targetPrice.textContent = `Analyst Target Price: $${stockData.AnalystTargetPrice}`
   dataContainer2.append(targetPrice)
 
+  const high = document.createElement('h5')
+  high.textContent = `52 Week High: $${stockData['52WeekHigh']}`
+  dataContainer2.append(high)
+
+  const low = document.createElement('h5')
+  low.textContent = `52 Week Low: $${stockData['52WeekLow']}`
+  dataContainer2.append(low)
+
 }
 
 const button = document.querySelector('#submit')
