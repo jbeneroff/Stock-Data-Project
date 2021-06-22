@@ -119,7 +119,7 @@ https://www.alphavantage.co/query?function=OVERVIEW&symbol=AAPL&apikey=
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Project Proposal/Find APIs | H | 3hrs|  |  |
+| Project Proposal/Find APIs | H | 3hrs| 3hrs | 3hrs |
 | Adding Basic HTML | H | 1hrs|  |  |
 | Adding Form/Search | H | 3hrs|  |  |
 | Working with 1st API | H | 3hrs|  |  |
