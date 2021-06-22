@@ -104,8 +104,8 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|June 22| Project Approval / Core Application Structure / Code | Incomplete
+|June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|June 22| Project Approval / Core Application Structure / Code | Complete
 |June 23| Code | Incomplete
 |June 24| Initial Clickable Model / MVP  | Incomplete
 |June 25| MVP / PMVP | Incomplete
@@ -122,12 +122,12 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Project Proposal/Find APIs | H | 3hrs| 3hrs | 3hrs |
-| Adding Basic HTML | H | 1hrs| .1hrs |  |
-| Adding Form/Search | H | 3hrs| .1hrs |  |
-| Working with 1st API | H | 3hrs| .1hrs |  |
-| Searching/Appending Company Overview Data| H | 3hrs| .1hrs |  |
-| Building out Complete Company Overview Elements | H | 3hrs| .1hrs |  |
-| Removing Previous Search Data | H | 1hrs| .1hrs |  |
+| Adding Basic HTML | H | 1hrs| .1hrs | .1hrs |
+| Adding Form/Search | H | 3hrs| .1hrs | .1hrs |
+| Working with 1st API | H | 3hrs| .1hrs | .1hrs |
+| Searching/Appending Company Overview Data| H | 3hrs| .1hrs | .1hrs |
+| Building out Complete Company Overview Elements | H | 3hrs| .1hrs | .1hrs |
+| Removing Previous Search Data | H | 1hrs| .1hrs | .1hrs |
 | Adding Basic CSS | H | 3hrs|  |  |
 | Adding Flexbox | H | 3hrs|  |  |
 | Adding Media Query | H | 1hrs|  |  |
