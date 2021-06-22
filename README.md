@@ -106,8 +106,8 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 |---|---| ---|
 |June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |June 22| Project Approval / Core Application Structure / Code | Complete
-|June 23| Code | Incomplete
-|June 24| Initial Clickable Model / MVP  | Incomplete
+|June 23| Code | Complete
+|June 24| Initial Clickable Model / MVP  | Complete
 |June 25| MVP / PMVP | Incomplete
 |June 26-27| PMVP | Incomplete
 |June 28| Presentation | Incomplete
@@ -131,7 +131,7 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 | Adding Basic CSS | H | 3hrs| .5hrs | .5hrs |
 | Adding Flexbox | H | 3hrs| .5hrs | .5hrs |
 | Adding Media Query | H | 1hrs| .5hrs | .5hrs |
-| Adding Advanced CSS styling | H | 3hrs|  |  |
+| Adding Advanced CSS styling | H | 3hrs| .5hrs |  |
 | Deploying Website | H | 1hrs|  |  |
 | PMVP: Working with 2nd API | M | 3hrs|  |  |
 | PMVP: Appending Real-Time Share Price Data | M | 3hrs|  |  |
