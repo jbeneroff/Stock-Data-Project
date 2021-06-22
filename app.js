@@ -3,6 +3,7 @@ const apiKey = 'M31QNN25YYCK1WWU'
 // const baseURL = `${domain}query?function=OVERVIEW&symbol=${stock}&apikey=${apiKey}`
 
 const dataContainer = document.querySelector('#info')
+const dataContainer2 = document.querySelector('#finances')
 
 async function fetchData(ticker) {
   const url = (`https://www.alphavantage.co/query?function=OVERVIEW&symbol=${ticker}&apikey=${apiKey}`)
@@ -20,13 +21,39 @@ async function fetchData(ticker) {
 
 function renderData(stockData) {
 
+  // Company Profile
   const nameElement = document.createElement('h2')
   nameElement.textContent = stockData.Name
   dataContainer.append(nameElement)
 
   const tickerElement = document.createElement('h3')
-  tickerElement.textContent = stockData.Symbol
+  tickerElement.textContent = `${stockData.Exchange}: ${stockData.Symbol}`
   dataContainer.append(tickerElement)
+
+  const descriptionElement = document.createElement('p')
+  descriptionElement.textContent = stockData.Description
+  dataContainer.append(descriptionElement)
+
+  // Finacial Overview
+  const marketCap = document.createElement('h5')
+  marketCap.textContent = `Market Cap: $${stockData.MarketCapitalization}`
+  dataContainer2.append(marketCap)
+
+  const ebitda = document.createElement('h5')
+  ebitda.textContent = `EBITDA: ${stockData.EBITDA}`
+  dataContainer2.append(ebitda)
+
+  const peRatio = document.createElement('h5')
+  peRatio.textContent = `PE Ratio: ${stockData.PERatio}`
+  dataContainer2.append(peRatio)
+
+  const eps = document.createElement('h5')
+  eps.textContent = `EPS: ${stockData.EPS}`
+  dataContainer2.append(eps)
+
+  const targetPrice = document.createElement('h5')
+  targetPrice.textContent = `Analyst Target Price: $${stockData.AnalystTargetPrice}`
+  dataContainer2.append(targetPrice)
 
 }
 
@@ -36,6 +63,7 @@ button.addEventListener('click', (e) => {
   const inputValue = document.querySelector('#input').value
   // console.log(inputValue)
   removeData(dataContainer)
+  removeData(dataContainer2)
   fetchData(inputValue)
   document.querySelector('#input').value = ''
 })
