@@ -22,6 +22,10 @@ async function fetchData(ticker) {
 function renderData(stockData) {
 
   // Company Profile
+  const headerFirst = document.createElement('h1')
+  headerFirst.textContent = 'Company Profile'
+  dataContainer.append(headerFirst)
+
   const nameElement = document.createElement('h2')
   nameElement.textContent = stockData.Name
   dataContainer.append(nameElement)
@@ -34,13 +38,17 @@ function renderData(stockData) {
   descriptionElement.textContent = stockData.Description
   dataContainer.append(descriptionElement)
 
-  // Finacial Overview
+  // Financial Overview
+  const headerSecond = document.createElement('h1')
+  headerSecond.textContent = 'Financial Overview'
+  dataContainer2.append(headerSecond)
+
   const marketCap = document.createElement('h5')
   marketCap.textContent = `Market Cap: $${stockData.MarketCapitalization}`
   dataContainer2.append(marketCap)
 
   const ebitda = document.createElement('h5')
-  ebitda.textContent = `EBITDA: ${stockData.EBITDA}`
+  ebitda.textContent = `EBITDA: $${stockData.EBITDA}`
   dataContainer2.append(ebitda)
 
   const peRatio = document.createElement('h5')
