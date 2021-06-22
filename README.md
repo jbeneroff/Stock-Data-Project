@@ -103,10 +103,10 @@ https://www.alphavantage.co/query?function=OVERVIEW&symbol=AAPL&apikey=
 |  Day | Deliverable | Status
 |---|---| ---|
 |June 21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|June 22| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|June 23| Pseudocode / actual code | Incomplete
-|June 24| Initial Clickable Model  | Incomplete
-|June 25| MVP | Incomplete
+|June 22| Project Approval / Core Application Structure / Code | Incomplete
+|June 23| Code | Incomplete
+|June 24| Initial Clickable Model / MVP  | Incomplete
+|June 25| MVP / PMVP | Incomplete
 |June 26-27| PMVP | Incomplete
 |June 28| Presentation | Incomplete
 
