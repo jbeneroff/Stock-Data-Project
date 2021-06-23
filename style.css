@@ -1,6 +1,7 @@
 body {
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
+  background: rgb(1, 9, 18);
 }
 
 nav {
@@ -29,19 +30,23 @@ ul {
   border-radius: 2px;
 }
 
+#price {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
 #profile {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
   align-items: center;
-  /* margin: 0px;
-  padding: 0px; */
-  /* border-style: solid black;
-  border-radius: 2px; */
   border: 2px solid black;
   border-radius: 10px;
   background-color: lightcyan;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 #finances {
@@ -49,21 +54,20 @@ ul {
   flex-flow: column wrap;
   justify-content: space-around;
   align-items: center;
-  /* margin: 0px;
-  padding: 0px; */
   border: 2px solid black;
   border-radius: 10px;
   background-color: lightcyan;
-  margin-top: 20px;
-
+  margin-top: 5px;
 }
+
 h1 {
   /* text-decoration: underline; */
   border: 2px solid black;
   border-radius: 10px;
-  margin: 10px;
-  background-color: lightcyan;
+  margin: 5px;
+  background-color: rgb(143, 206, 206);
   padding: 5px;
+  color: white;
 }
 
 h2, h3, h5, p {
@@ -72,6 +76,7 @@ h2, h3, h5, p {
 
 p {
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 #footer {
@@ -80,7 +85,6 @@ p {
   width: 90%;
   height: 10px;
   margin: 5px;
-  /* background-color: ; */
   border: 2px solid black;
   border-radius: 10px;
   background-color: lightcyan;
@@ -96,6 +100,10 @@ p {
     align-items: stretch;
     flex-grow: 1;
     /* height: auto; */
+  }
+  .price-data {
+    display: flex;
+    flex-direction: column;
   }
   .company-profile {
     max-width: 50%;
