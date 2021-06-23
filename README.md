@@ -129,7 +129,7 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 | Building out Complete Company Overview Elements | H | 3hrs| .1hrs | .1hrs |
 | Removing Previous Search Data | H | 1hrs| .1hrs | .1hrs |
 | Adding Basic CSS | H | 3hrs| .5hrs | .5hrs |
-| Adding Flexbox | H | 3hrs| .5hrs | .5hrs |
+| Adding/Adjusting Flexbox | H | 3hrs| 3hrs | 3hrs |
 | Adding Media Query | H | 1hrs| .5hrs | .5hrs |
 | Adding Advanced CSS styling | H | 3hrs| 5hrs |  |
 | Deploying Website | H | 1hrs|  |  |
