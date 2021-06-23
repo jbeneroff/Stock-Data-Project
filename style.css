@@ -41,7 +41,7 @@ ul {
   border: 2px solid black;
   border-radius: 10px;
   background-color: lightcyan;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 #finances {
@@ -54,6 +54,8 @@ ul {
   border: 2px solid black;
   border-radius: 10px;
   background-color: lightcyan;
+  margin-top: 20px;
+
 }
 h1 {
   /* text-decoration: underline; */
