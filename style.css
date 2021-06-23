@@ -14,8 +14,12 @@ nav {
 
 ul {
   padding: 0px;
-  margin: 10px;
+  margin: 5px;
 }
+
+/* .information {
+  width: 95%;
+} */
 
 .search-form {
   display: flex;
@@ -101,9 +105,11 @@ p {
     flex-grow: 1;
     /* height: auto; */
   }
-  .price-data {
+  .price-div {
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
+    justify-content: center;
   }
   .company-profile {
     max-width: 50%;
@@ -113,6 +119,11 @@ p {
     max-width: 50%;
     min-width: 50%;
   }
+
+  /* #profile, #finances {
+    height: 300px;
+  } */
+
   h5 {
     font-size: 20px;
   }
