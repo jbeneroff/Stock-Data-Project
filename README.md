@@ -131,10 +131,10 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 | Adding Basic CSS | H | 3hrs| .5hrs | .5hrs |
 | Adding Flexbox | H | 3hrs| .5hrs | .5hrs |
 | Adding Media Query | H | 1hrs| .5hrs | .5hrs |
-| Adding Advanced CSS styling | H | 3hrs| 3hrs |  |
+| Adding Advanced CSS styling | H | 3hrs| 5hrs |  |
 | Deploying Website | H | 1hrs|  |  |
-| PMVP: Working with 2nd API | M | 3hrs|  |  |
-| PMVP: Appending Real-Time Share Price Data | M | 3hrs|  |  |
+| PMVP: Working with 2nd API | M | 3hrs| 1hrs | 1hrs |
+| PMVP: Appending Real-Time Share Price Data | M | 3hrs| 1hrs | 1hrs |
 | PMVP: Adding Buy/Sell Rating | L | 3hrs|  |  |
 | PMVP: Adding Favorites List | L | 3hrs|  |  |
 | Total | H | 40hrs| 5.5hrs |  |
