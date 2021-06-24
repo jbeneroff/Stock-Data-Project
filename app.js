@@ -46,6 +46,8 @@ async function fetchData(ticker) {
 
 function renderData(stockData) {
 
+  /// for loop w/ if statement i /= undefined
+
   // Company Profile
   const headerFirst = document.createElement('h1')
   headerFirst.textContent = 'Company Profile'

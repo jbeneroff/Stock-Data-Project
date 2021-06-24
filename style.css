@@ -9,7 +9,6 @@ body {
   /* font-family: 'Ubuntu', sans-serif; */
   font-family: 'Roboto', sans-serif;
   background: white;
-  /* overflow-y: scroll; */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -17,8 +16,7 @@ body {
 }
 
 main {
-  flex:1;
-
+  flex: 1;
 }
 
 nav {
@@ -41,9 +39,7 @@ a {
 }
 
 .information {
-  /* display: grid; */
   display: flex;
-  /* grid-template-rows: repeat(2,1fr); */
   justify-content: center;
   flex-direction: column;
 }
@@ -70,15 +66,11 @@ a {
 }
 
 #profile {
-  /* display: none; */
   border: 2px solid black;
   border-radius: 10px;
   background-color: rgb(194, 226, 245);
   margin-top: 5px;
-  /* align-self: stretch; */
-  /* grid-column: 1 / 2; */
   height: 100%;
-  /* width: 100vw; */
   margin: 5px;
 } 
 
@@ -87,24 +79,15 @@ a {
 }
 
 #finances {
-  /* display: none; */
-  /* display: flex;
-  flex-flow: column wrap;
-  justify-content: space-around;
-  align-items: center; */
   border: 2px solid black;
   border-radius: 10px;
   background-color: rgb(194, 226, 245);
   margin-top: 5px;
-  /* align-self: stretch; */
-  /* grid-column: 2 / 3; */
   height: 100%;
-  /* width: 100vw; */
   margin: 5px;
 } 
 
 h1 {
-  /* text-decoration: underline; */
   border: 2px solid black;
   border-radius: 10px;
   margin: 5px;
@@ -116,12 +99,11 @@ h1 {
 #price-text {
   background-color: rgb(194, 226, 245);
   font-size: 40px;
-  color: black;
+  color: rgb(28, 191, 28);
 }
 
 h2, h3, h5, p {
   margin: 3px;
-  /* color: white; */
 }
 
 p {
@@ -131,8 +113,6 @@ p {
 
 #footer {
   width: 100%;
-  border: 2px solid black;
-  border-radius: 10px;
   background-color: rgb(194, 226, 245);
   font-size: 15px;
   align-items: center;
@@ -162,10 +142,6 @@ h6 {
   .financial-overview {
     max-width: 50%;
     min-width: 50%;
-  }
-
-  #profile, #finances {
-   /* width: 50vw; */
   }
 
   h5 {
