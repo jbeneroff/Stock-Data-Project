@@ -76,11 +76,11 @@ a:hover {
   transition-duration: 0.4s;
 }
 
-#submit:hover {
+/* #submit:hover {
   border-radius: 4px;
   background-color: grey;
   color: black;
-}
+} */
 
 #price {
   display: flex;
