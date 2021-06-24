@@ -106,9 +106,14 @@ button.addEventListener('click', (e) => {
   removeData(dataContainer)
   removeData(dataContainer2)
   removeData(dataContainer3)
+  const display = document.querySelectorAll('.information > *')
+  display.forEach((element) => {
+    element.classList.remove('hidden')
+  })
   fetchPrice(inputValue)
   fetchData(inputValue)
   document.querySelector('#input').value = ''
+
 })
 
 function removeData(elementToRemove) {

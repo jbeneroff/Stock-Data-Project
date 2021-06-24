@@ -22,29 +22,30 @@
     <ul><a href='#input'>Search</a></ul>
     <ul><a href=''>Favorites</a></ul>
   </nav>
-  <h1>Stock Market Library</h1>
-  <img src="" alt="">
-  <form class="search-form">
-    <input type="text" id="input" placeholder="Stock Ticker (e.g. AAPL)">
-    <!-- <button id="search">Search</button> -->
-    <input type="submit" value='Search' id='submit'>
-  </form>
-  <div class='price-div'>
-    <section class='price-data'>
-      <div id='price'></div>
-    </section>
-  </div>
-  <div class='information'>
-    <section class="company-profile">
-      <div id='profile'></div>
-    </section>
-    <section class="financial-overview">
-      <div id='finances'></div>
-    </section>
-  </div>
+  <main>
+    <h1>Stock Market Library</h1>
+    <img src="" alt="">
+    <form class="search-form">
+      <input type="text" id="input" placeholder="Stock Ticker (e.g. AAPL)">
+      <input type="submit" value='Search' id='submit'>
+    </form>
+    <div class='price-div'>
+      <section class='price-data'>
+        <div id='price'></div>
+      </section>
+    </div>
+    <div class='information'>
+      <section class="company-profile hidden">
+        <div id='profile'></div>
+      </section>
+      <section class="financial-overview hidden">
+        <div id='finances'></div>
+      </section>
+    </div>
+  </main>
   <footer id='footer'>
-    <a href="https://www.alphavantage.co/documentation/">Company Information: Alpha Vantage API</a>
-    <a href="https://financialmodelingprep.com/developer/docs/">Real-Time Share Price: Financial Modeling Prep API</a>
+    <a href="https://www.alphavantage.co/documentation/">Company Information API: Alpha Vantage</a>
+    <a href="https://financialmodelingprep.com/developer/docs/">Real-Time Share Price API: Financial Modeling Prep</a>
     <h6>© Jared Beneroff 2021</h6>
   </footer>
 </body>
