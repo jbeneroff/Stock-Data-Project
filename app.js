@@ -17,11 +17,13 @@ async function fetchPrice(ticker) {
     return response
   } catch (error) {
     console.log(error)
+    alert('Not A Valid Ticker. Please Try Again. (e.g. AAPL, TSLA, MSFT, AMZN)')
   }
 }
 
 function renderPrice(priceData) {
   const priceElement = document.createElement('h1')
+  priceElement.id = 'price-text'
   priceElement.textContent = `$${priceData.price}`
   dataContainer3.append(priceElement)
 }

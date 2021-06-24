@@ -1,6 +1,7 @@
 body {
   text-align: center;
-  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Roboto', sans-serif;
   background: white;
 }
 
@@ -74,8 +75,15 @@ h1 {
   color: white;
 }
 
+#price-text {
+  background-color: rgb(194, 226, 245);
+  font-size: 40px;
+  color: black;
+}
+
 h2, h3, h5, p {
   margin: 3px;
+  /* color: white; */
 }
 
 p {
