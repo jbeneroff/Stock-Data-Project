@@ -112,7 +112,8 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
-    flex-grow: 1;
+    /* flex: 1 1 0px; */
+    /* flex-grow: 1; */
     /* height: auto; */
   }
   .price-div {
@@ -130,9 +131,10 @@ p {
     min-width: 50%;
   }
 
-  /* #profile, #finances {
-    height: 300px;
-  } */
+  #profile, #finances {
+    flex-basis: 50%;
+    flex-grow: 1;
+  }
 
   h5 {
     font-size: 20px;
