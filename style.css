@@ -3,6 +3,7 @@ body {
   /* font-family: 'Ubuntu', sans-serif; */
   font-family: 'Roboto', sans-serif;
   background: white;
+  /* overflow-y: scroll; */
 }
 
 nav {
@@ -63,6 +64,7 @@ ul {
   border-radius: 10px;
   background-color: rgb(194, 226, 245);
   margin-top: 5px;
+  /* overflow-y: scroll; */
 }
 
 h1 {
