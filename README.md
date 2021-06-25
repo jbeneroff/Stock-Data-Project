@@ -1,8 +1,8 @@
 # Project Overview
 
-## Real-Time Stock Data Project
+## FinView (Real-Time Stock Data and Company Finances)
 
-[Deployed URL](URL)
+[FinView Website](URL)
 
 ## Project Description
 
@@ -108,7 +108,7 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 |June 22| Project Approval / Core Application Structure / Code | Complete
 |June 23| Code | Complete
 |June 24| Initial Clickable Model / MVP  | Complete
-|June 25| MVP / PMVP | Incomplete
+|June 25| Website Design / PMVP | Incomplete
 |June 26-27| PMVP | Incomplete
 |June 28| Presentation | Incomplete
 
@@ -129,8 +129,8 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 | Building out Complete Company Overview Elements | H | 3hrs| .1hrs | .1hrs |
 | Removing Previous Search Data | H | 1hrs| .1hrs | .1hrs |
 | Adding Basic CSS | H | 3hrs| 3hrs | 3hrs |
-| Adding/Adjusting Flexbox | H | 3hrs| 5hrs |  |
-| Adding Media Query | H | 1hrs| .5hrs | .5hrs |
+| Adding/Adjusting Flexbox | H | 3hrs| 6hrs |  |
+| Adding/Editing Media Query | H | 1hrs| 1hrs | 1hrs |
 | Adding Advanced CSS styling | H | 3hrs| 6hrs |  |
 | Deploying Website | H | 1hrs| 0hrs |  |
 | PMVP: Working with 2nd API | M | 3hrs| 1hrs | 1hrs |
