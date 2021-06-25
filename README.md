@@ -108,7 +108,7 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 |June 22| Project Approval / Core Application Structure / Code | Complete
 |June 23| Code | Complete
 |June 24| Initial Clickable Model / MVP  | Complete
-|June 25| Website Design / PMVP | Incomplete
+|June 25| Website Design / PMVP | Complete
 |June 26-27| PMVP | Incomplete
 |June 28| Presentation | Incomplete
 
@@ -122,7 +122,7 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Project Proposal/Find APIs | H | 3hrs| 3hrs | 3hrs |
-| Adding Basic HTML | H | 1hrs| .1hrs | .1hrs |
+| Adding Basic HTML | H | 1hrs| 1hrs | 1hrs |
 | Adding Form/Search | H | 3hrs| .1hrs | .1hrs |
 | Working with 1st API | H | 3hrs| .1hrs | .1hrs |
 | Searching/Appending Company Overview Data| H | 3hrs| .1hrs | .1hrs |
@@ -131,12 +131,12 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 | Adding Basic CSS | H | 3hrs| 3hrs | 3hrs |
 | Adding/Adjusting Flexbox | H | 3hrs| 6hrs |  |
 | Adding/Editing Media Query | H | 1hrs| 1hrs | 1hrs |
-| Adding Advanced CSS styling | H | 3hrs| 6hrs |  |
+| Adding Advanced CSS styling | H | 3hrs| 8hrs |  |
 | Deploying Website | H | 1hrs| 0hrs |  |
 | PMVP: Working with 2nd API | M | 3hrs| 1hrs | 1hrs |
 | PMVP: Appending Real-Time Share Price Data | M | 3hrs| 1hrs | 1hrs |
 | PMVP: Adding Buy/Sell Rating | L | 3hrs| 0hrs |  |
-| PMVP: Adding Favorites List | L | 3hrs| 0hrs |  |
+| PMVP: Adding Favorites List | L | 3hrs| 1hrs |  |
 | Total | H | 40hrs| 5.5hrs |  |
 
 ## Code Snippet
