@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-weight: 300;
 }
 
 body {
@@ -11,6 +12,12 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  /* background-image: url('https://www.fairobserver.com/wp-content/uploads/2020/03/markets-2.jpg'); */
+  /* background-image: url('https://www.gethow.org/wp-content/uploads/2021/03/stock-market.jpg'); */
+  background-image: url('https://mediacloud.kiplinger.com/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1621366718/Investing/stock-market-today-051821.jpg');
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {
@@ -21,7 +28,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: rgb(194, 226, 245);
+  background-color: rgba(77, 170, 223, 0.8);
   width: 100%;
 }
 
@@ -57,7 +64,7 @@ a:hover {
 #input {
   margin-bottom: 8px;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 4px;
   width: 200px;
   height: 25px;
   font-size: 17px;
@@ -90,9 +97,9 @@ a:hover {
 }
 
 #profile {
-  border: 2px solid black;
+  /* border: 2px solid white; */
   border-radius: 10px;
-  background-color: rgb(194, 226, 245);
+  background-color: rgba(77, 170, 223, 0.8);
   margin-top: 5px;
   height: 100%;
   margin: 5px;
@@ -103,9 +110,9 @@ a:hover {
 }
 
 #finances {
-  border: 2px solid black;
+  /* border: 2px solid white; */
   border-radius: 10px;
-  background-color: rgb(194, 226, 245);
+  background-color: rgba(77, 170, 223, 0.8);
   margin-top: 5px;
   height: 100%;
   margin: 5px;
@@ -117,20 +124,25 @@ h1 {
   margin: 5px;
   /* background-color: rgb(0, 68, 184); */
   padding: 5px;
-  color: blue;
+  color: rgb(1, 1, 103);
+  font-weight: 400;
 }
 
 #name {
-  font-weight: 700;
+  color: white;
+  font-weight: 500;
+  /* text-decoration: underline; */
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 #price-text {
-  background-color: rgb(194, 226, 245);
-  font-size: 40px;
-  color: rgb(28, 191, 28);
-  border: 2px solid black;
+  background-color: rgba(77, 170, 223, 0.9);
+  font-size: 30px;
+  color: rgb(28, 196, 28);
+  /* border: 2px; */
   border-radius: 10px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h2, h3, h5, p {
@@ -144,7 +156,8 @@ p {
 
 #footer {
   width: 100%;
-  background-color: rgb(194, 226, 245);
+  /* background-color: rgb(194, 226, 245, 0.8); */
+  background-color: rgba(77, 170, 223, 0.8);
   font-size: 15px;
   align-items: center;
   display: flex;
@@ -176,5 +189,8 @@ h6 {
   }
   h5 {
   font-size: 20px;
+  }
+  #price-text {
+  font-size: 40px;
   }
 }

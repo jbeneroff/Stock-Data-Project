@@ -6,6 +6,7 @@ const apiKey2 = '96273893400e02fdfb216ccd8de90610'
 const dataContainer = document.querySelector('#profile')
 const dataContainer2 = document.querySelector('#finances')
 const dataContainer3 = document.querySelector('#price')
+let favorites = window.localStorage
 
 async function fetchPrice(ticker) {
   const url = (`https://financialmodelingprep.com/api/v3/profile/${ticker}?apikey=${apiKey2}`)
@@ -46,8 +47,8 @@ async function fetchData(ticker) {
 
 function renderData(stockData) {
 
-  /// for loop w/ if statement i /= undefined
-
+  // for (i = 0; i < stockData.length; i++) {
+  //   if (stockData.i !== undefined) {
   // Company Profile
   const headerFirst = document.createElement('h1')
   headerFirst.textContent = 'Company Profile'
@@ -75,7 +76,11 @@ function renderData(stockData) {
   dataContainer2.append(marketCap)
 
   const ebitda = document.createElement('h5')
-  ebitda.textContent = `EBITDA: $${stockData.EBITDA}`
+  if (stockData.EBITDA !== 'None') {
+    ebitda.textContent = `EBITDA: $${stockData.EBITDA}`
+  } else {
+    ebitda.textContent = 'EBITDA: None'
+  }
   dataContainer2.append(ebitda)
 
   const peRatio = document.createElement('h5')
@@ -87,7 +92,11 @@ function renderData(stockData) {
   dataContainer2.append(eps)
 
   const targetPrice = document.createElement('h5')
-  targetPrice.textContent = `Analyst Target Price: $${stockData.AnalystTargetPrice}`
+  if (stockData.AnalystTargetPrice !== 'None') {
+    targetPrice.textContent = `Analyst Target Price: $${stockData.AnalystTargetPrice}`
+  } else {
+    targetPrice.textContent = 'Analyst Target Price: None'
+  }
   dataContainer2.append(targetPrice)
 
   const high = document.createElement('h5')
@@ -97,6 +106,10 @@ function renderData(stockData) {
   const low = document.createElement('h5')
   low.textContent = `52 Week Low: $${stockData['52WeekLow']}`
   dataContainer2.append(low)
+  //   } else {
+  //     return stockData
+  //   }
+  // }
 
 }
 
@@ -114,6 +127,7 @@ button.addEventListener('click', (e) => {
   })
   fetchPrice(inputValue)
   fetchData(inputValue)
+  localStorage.setItem(favorites, inputValue)
   document.querySelector('#input').value = ''
 
 })
@@ -123,3 +137,6 @@ function removeData(elementToRemove) {
     elementToRemove.removeChild(elementToRemove.lastChild)
   }
 }
+
+
+
