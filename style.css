@@ -82,12 +82,6 @@ a:hover {
   transition-duration: 0.4s;
 }
 
-/* #submit:hover {
-  border-radius: 4px;
-  background-color: grey;
-  color: black;
-} */
-
 #price {
   display: flex;
   flex-flow: column wrap;
@@ -180,12 +174,10 @@ h6 {
     justify-content: center;
   }
   .company-profile {
-    max-width: 50%;
-    min-width: 50%;
+    width: 50%;
   }
   .financial-overview {
-    max-width: 50%;
-    min-width: 50%;
+    width: 50%;
   }
   h5 {
   font-size: 20px;
