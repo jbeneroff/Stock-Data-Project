@@ -137,7 +137,7 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 | PMVP: Appending Real-Time Share Price Data | M | 3hrs| 1hrs | 1hrs |
 | PMVP: Adding Buy/Sell Rating | L | 3hrs| 0hrs |  |
 | PMVP: Adding Favorites List | L | 3hrs| 1hrs |  |
-| Total | H | 40hrs| 5.5hrs |  |
+| Total | H | 40hrs| 24.5hrs |  |
 
 ## Code Snippet
 
