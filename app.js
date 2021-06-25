@@ -1,18 +1,15 @@
-// const domain = 'https://www.alphavantage.co/'
 const apiKey1 = 'M31QNN25YYCK1WWU'
 const apiKey2 = '96273893400e02fdfb216ccd8de90610'
-// const baseURL = `${domain}query?function=OVERVIEW&symbol=${stock}&apikey=${apiKey}`
 
 const dataContainer = document.querySelector('#profile')
 const dataContainer2 = document.querySelector('#finances')
 const dataContainer3 = document.querySelector('#price')
-let favorites = window.localStorage
+let favorites = {}
 
 async function fetchPrice(ticker) {
   const url = (`https://financialmodelingprep.com/api/v3/profile/${ticker}?apikey=${apiKey2}`)
   try {
     let response = await axios.get(url)
-    // console.log(response.data[0].price)
     priceData = response.data[0]
     renderPrice(priceData)
     return response
@@ -30,12 +27,10 @@ function renderPrice(priceData) {
 }
 
 
-
 async function fetchData(ticker) {
   const url = (`https://www.alphavantage.co/query?function=OVERVIEW&symbol=${ticker}&apikey=${apiKey1}`)
   try {
     let response = await axios.get(url)
-    // console.log(response.data)
     stockData = response.data
     renderData(stockData)
     return response
@@ -43,7 +38,6 @@ async function fetchData(ticker) {
     console.log(error)
   }
 }
-// fetchData('AAPL')
 
 function renderData(stockData) {
 
@@ -117,7 +111,6 @@ const button = document.querySelector('#submit')
 button.addEventListener('click', (e) => {
   e.preventDefault()
   const inputValue = document.querySelector('#input').value
-  // console.log(inputValue)
   removeData(dataContainer)
   removeData(dataContainer2)
   removeData(dataContainer3)
@@ -127,9 +120,9 @@ button.addEventListener('click', (e) => {
   })
   fetchPrice(inputValue)
   fetchData(inputValue)
-  localStorage.setItem(favorites, inputValue)
+  window.localStorage.setItem('Stock', JSON.stringify(inputValue))
+  console.log(localStorage)
   document.querySelector('#input').value = ''
-
 })
 
 function removeData(elementToRemove) {
