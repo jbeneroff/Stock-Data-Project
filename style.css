@@ -12,9 +12,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  /* background-image: url('https://www.fairobserver.com/wp-content/uploads/2020/03/markets-2.jpg'); */
-  /* background-image: url('https://www.gethow.org/wp-content/uploads/2021/03/stock-market.jpg'); */
-  background-image: url('https://mediacloud.kiplinger.com/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1621366718/Investing/stock-market-today-051821.jpg');
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), 
+    url('https://mediacloud.kiplinger.com/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1621366718/Investing/stock-market-today-051821.jpg');
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
