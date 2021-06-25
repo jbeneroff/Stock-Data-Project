@@ -138,6 +138,13 @@ h1 {
   font-weight: 400;
 }
 
+#alert {
+  background-color: rgba(77, 170, 223, 0.9);
+  font-size: 30px;
+  color: black;
+  border-radius: 10px;
+}
+
 h2, h3, h5, p {
   margin: 3px;
 }

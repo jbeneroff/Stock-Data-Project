@@ -15,7 +15,10 @@ async function fetchPrice(ticker) {
     return response
   } catch (error) {
     console.log(error)
-    alert('Not A Valid Ticker. Please Try Again. (e.g. AAPL, TSLA, MSFT, AMZN)')
+    const alertElement = document.createElement('h1')
+    alertElement.id = 'alert'
+    alertElement.textContent = 'Not a valid ticker, please try again. (e.g. AAPL, TSLA, MSFT, AMZN)'
+    dataContainer3.append(alertElement)
   }
 }
 
