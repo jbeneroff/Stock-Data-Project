@@ -120,8 +120,10 @@ button.addEventListener('click', (e) => {
   })
   fetchPrice(inputValue)
   fetchData(inputValue)
-  window.localStorage.setItem('Stock', JSON.stringify(inputValue))
+  localStorage.setItem('Stock', inputValue)
+  // favorites.push(localStorage)
   console.log(localStorage)
+  console.log(favorites)
   document.querySelector('#input').value = ''
 })
 
@@ -131,5 +133,5 @@ function removeData(elementToRemove) {
   }
 }
 
-
+// localStorage.clear()
 
