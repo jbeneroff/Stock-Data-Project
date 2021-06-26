@@ -109,7 +109,7 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 |June 23| Code | Complete
 |June 24| Initial Clickable Model / MVP  | Complete
 |June 25| Website Design / PMVP | Complete
-|June 26-27| PMVP | Incomplete
+|June 26-27| PMVP | Complete
 |June 28| Presentation | Incomplete
 
 ## Priority Matrix
@@ -129,20 +129,21 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 | Building out Complete Company Overview Elements | H | 3hrs| .1hrs | .1hrs |
 | Removing Previous Search Data | H | 1hrs| .1hrs | .1hrs |
 | Adding Basic CSS | H | 3hrs| 3hrs | 3hrs |
-| Adding/Adjusting Flexbox | H | 3hrs| 6hrs |  |
+| Adding/Adjusting Flexbox | H | 3hrs| 6hrs | 6 |
 | Adding/Editing Media Query | H | 1hrs| 1hrs | 1hrs |
-| Adding Advanced CSS styling | H | 3hrs| 8hrs |  |
+| Adding Advanced CSS styling | H | 3hrs| 10hrs | 10hrs |
 | Deploying Website | H | 1hrs| 0hrs |  |
 | PMVP: Working with 2nd API | M | 3hrs| 1hrs | 1hrs |
 | PMVP: Appending Real-Time Share Price Data | M | 3hrs| 1hrs | 1hrs |
 | PMVP: Adding Buy/Sell Rating | L | 3hrs| 0hrs |  |
-| PMVP: Adding Favorites List | L | 3hrs| 1hrs |  |
+| PMVP: Adding Favorites List | L | 3hrs| 2hrs |  |
 | Total | H | 40hrs| 24.5hrs |  |
 
 ## Code Snippet
 
 
 ```
+
 ```
 
 ## Change Log
