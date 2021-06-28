@@ -134,7 +134,7 @@ button.addEventListener('click', (e) => {
   }
 })
 
-// Remove previous searches
+// Remove previous search
 function removeData(elementToRemove) {
   while (elementToRemove.lastChild) {
     elementToRemove.removeChild(elementToRemove.lastChild)
