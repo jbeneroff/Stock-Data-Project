@@ -1,11 +1,13 @@
+// API Keys
 const apiKey1 = 'M31QNN25YYCK1WWU'
 const apiKey2 = '96273893400e02fdfb216ccd8de90610'
 
+// Containers for appending data
 const dataContainer = document.querySelector('#profile')
 const dataContainer2 = document.querySelector('#finances')
 const dataContainer3 = document.querySelector('#price')
-let favorites = []
 
+// Real-time price API
 async function fetchPrice(ticker) {
   const url = (`https://financialmodelingprep.com/api/v3/profile/${ticker}?apikey=${apiKey2}`)
   try {
@@ -18,6 +20,7 @@ async function fetchPrice(ticker) {
   }
 }
 
+// Append price data
 function renderPrice(priceData) {
   const priceElement = document.createElement('h1')
   priceElement.id = 'price-text'
@@ -25,7 +28,7 @@ function renderPrice(priceData) {
   dataContainer3.append(priceElement)
 }
 
-
+// Company Info API
 async function fetchData(ticker) {
   const url = (`https://www.alphavantage.co/query?function=OVERVIEW&symbol=${ticker}&apikey=${apiKey1}`)
   try {
@@ -38,6 +41,7 @@ async function fetchData(ticker) {
   }
 }
 
+// Append Company Info 
 function renderData(stockData) {
   if (stockData.hasOwnProperty('Symbol')) {
     const headerFirst = document.createElement('h1')
@@ -103,6 +107,7 @@ function renderData(stockData) {
   }
 }
 
+// Event listener for search
 const button = document.querySelector('#submit')
 button.addEventListener('click', (e) => {
   e.preventDefault()
@@ -117,12 +122,6 @@ button.addEventListener('click', (e) => {
     })
     fetchPrice(inputValue)
     fetchData(inputValue)
-
-    favorites.push(inputValue)
-    localStorage.setItem('Stock', favorites)
-    console.log(localStorage)
-    console.log(favorites)
-
     document.querySelector('#input').value = ''
   } else {
     removeData(dataContainer)
@@ -135,11 +134,9 @@ button.addEventListener('click', (e) => {
   }
 })
 
+// Remove previous searches
 function removeData(elementToRemove) {
   while (elementToRemove.lastChild) {
     elementToRemove.removeChild(elementToRemove.lastChild)
   }
 }
-
-// localStorage.clear()
-

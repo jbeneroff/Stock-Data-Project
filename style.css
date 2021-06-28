@@ -150,7 +150,6 @@ p {
 
 #footer {
   width: 100%;
-  /* background-color: rgb(194, 226, 245, 0.8); */
   background-color: rgba(77, 170, 223, 0.8);
   font-size: 15px;
   align-items: center;
@@ -180,9 +179,9 @@ h6 {
     width: 50%;
   }
   h5 {
-  font-size: 20px;
+    font-size: 20px;
   }
   #price-text {
-  font-size: 40px;
+    font-size: 40px;
   }
 }
