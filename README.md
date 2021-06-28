@@ -171,6 +171,6 @@ button.addEventListener('click', (e) => {
 ```
 
 ## Change Log
- - info boxes made same height in desktop view
- - hidden elements added to hide empty elements
- - Fixed empty or incorrect search to display message
+ - Info boxes made same height in desktop view
+ - Hidden classes added to hide empty elements
+ - Fixed empty or incorrect search to display message instead of undefined values
