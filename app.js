@@ -116,7 +116,7 @@ button.addEventListener('click', (e) => {
     removeData(dataContainer)
     removeData(dataContainer2)
     removeData(dataContainer3)
-    const display = document.querySelectorAll('.information > *')
+    const display = document.querySelectorAll('.hidden')
     display.forEach((element) => {
       element.classList.remove('hidden')
     })
