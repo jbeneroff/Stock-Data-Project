@@ -6,7 +6,7 @@
 
 ## Project Description
 
-The website will offer a search by stock ticker. A company profile with a financial overview for the searched stock will be provided. Real-time share price may be added as a PMVP using a second API, as well as my personal BUY/SELL rating for the stock.
+The website will offer a search by stock ticker. Real-time share price as well as a company profile with a financial overview for the searched stock will be provided. 
 
 ## API and Data Sample
 
@@ -135,9 +135,9 @@ https://financialmodelingprep.com/developer/docs/  (2nd API for Real-Time Stock 
 | Deploying Website | H | 1hrs| 1hrs | 1hrs |
 | PMVP: Working with 2nd API | M | 3hrs| 1hrs | 1hrs |
 | PMVP: Appending Real-Time Share Price Data | M | 3hrs| 1hrs | 1hrs |
-| PMVP: Adding Buy/Sell Rating | L | 3hrs| 0hrs | 0hrs |
+| PMVP: Adding Buy/Sell Rating | L | 3hrs| 0.5hrs | 0.5hrs |
 | PMVP: Adding Favorites List | L | 3hrs| 2hrs | 2hrs |
-| Total | H | 40hrs| 24.5hrs |  |
+| Total | H | 40hrs| 30hrs | 30hrs |
 
 ## Code Snippet
 
