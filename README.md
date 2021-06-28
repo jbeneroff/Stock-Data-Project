@@ -2,7 +2,7 @@
 
 ## FinView (Real-Time Stock Data and Company Finances)
 
-[FinView Website](URL)
+[FinView Website](https://jbeneroff.github.io/Stock-Data-Project/)
 
 ## Project Description
 
